@@ -396,4 +396,4 @@ if __name__ == "__main__":
             os.mkdir(conda_path_bin)
 
         # Launch the webui
-        launch_webui()
+        launch_webui(share=True)
